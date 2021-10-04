@@ -1,0 +1,165 @@
+    Experiment 1: the average runtime of algorithms on randomly generated arrays
+  -----SelectionSort-----
+Len: 128    Time: 0.0004168034    Num of comparisons: 8128.0
+Len: 256    Time: 0.0018012524    Num of comparisons: 32640.0
+Len: 512    Time: 0.0069633484    Num of comparisons: 130816.0
+Len: 1024    Time: 0.0300066471    Num of comparisons: 523776.0
+Len: 2048    Time: 0.1182705879    Num of comparisons: 2096128.0
+Len: 4096    Time: 0.4982264042    Num of comparisons: 8386560.0
+Len: 8192    Time: 1.9440512657    Num of comparisons: 33550336.0
+Len: 16384    Time: 7.9419022083    Num of comparisons: 134209536.0
+Len: 32768    Time: 30.6401895046    Num of comparisons: 536854528.0
+-----InsertionSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 876.4
+Len: 256    Time: 0.0000000000    Num of comparisons: 3622.0
+Len: 512    Time: 0.0020395279    Num of comparisons: 13093.8
+Len: 1024    Time: 0.0040792942    Num of comparisons: 52765.0
+Len: 2048    Time: 0.0224483013    Num of comparisons: 211195.4
+Len: 4096    Time: 0.0854187965    Num of comparisons: 845141.8
+Len: 8192    Time: 0.3433054447    Num of comparisons: 3383662.0
+Len: 16384    Time: 1.3523489952    Num of comparisons: 13327409.6
+Len: 32768    Time: 5.4701701164    Num of comparisons: 53906958.4
+-----MergeSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 742.0
+Len: 256    Time: 0.0004257202    Num of comparisons: 1727.0
+Len: 512    Time: 0.0000000000    Num of comparisons: 3988.0
+Len: 1024    Time: 0.0037111282    Num of comparisons: 8977.0
+Len: 2048    Time: 0.0066768169    Num of comparisons: 19934.0
+Len: 4096    Time: 0.0223154545    Num of comparisons: 43966.0
+Len: 8192    Time: 0.0717927933    Num of comparisons: 96096.0
+Len: 16384    Time: 0.2633461952    Num of comparisons: 208691.0
+Len: 32768    Time: 0.9939713001    Num of comparisons: 450171.0
+-----ShellSort-----
+Len: 128    Time: 0.0002002239    Num of comparisons: 931.2
+Len: 256    Time: 0.0001996517    Num of comparisons: 2145.6
+Len: 512    Time: 0.0005877495    Num of comparisons: 5603.2
+Len: 1024    Time: 0.0008858681    Num of comparisons: 12112.2
+Len: 2048    Time: 0.0037120342    Num of comparisons: 29740.2
+Len: 4096    Time: 0.0079779148    Num of comparisons: 70959.4
+Len: 8192    Time: 0.0226270199    Num of comparisons: 210973.8
+Len: 16384    Time: 0.0493665695    Num of comparisons: 445044.0
+Len: 32768    Time: 0.1093724728    Num of comparisons: 998074.8
+
+      Experiment 2: the values of the input array are sorted in ascending order
+  -----SelectionSort-----
+Len: 128    Time: 0.0009319782    Num of comparisons: 8128
+Len: 256    Time: 0.0020692348    Num of comparisons: 32640
+Len: 512    Time: 0.0069987774    Num of comparisons: 130816
+Len: 1024    Time: 0.0278406143    Num of comparisons: 523776
+Len: 2048    Time: 0.1243085861    Num of comparisons: 2096128
+Len: 4096    Time: 0.4692330360    Num of comparisons: 8386560
+Len: 8192    Time: 2.0133314133    Num of comparisons: 33550336
+Len: 16384    Time: 7.6509091854    Num of comparisons: 134209536
+Len: 32768    Time: 30.7373645306    Num of comparisons: 536854528
+-----InsertionSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 127
+Len: 256    Time: 0.0000000000    Num of comparisons: 255
+Len: 512    Time: 0.0000000000    Num of comparisons: 511
+Len: 1024    Time: 0.0000000000    Num of comparisons: 1023
+Len: 2048    Time: 0.0000000000    Num of comparisons: 2047
+Len: 4096    Time: 0.0009660721    Num of comparisons: 4095
+Len: 8192    Time: 0.0010082722    Num of comparisons: 8191
+Len: 16384    Time: 0.0020020008    Num of comparisons: 16383
+Len: 32768    Time: 0.0040688515    Num of comparisons: 32767
+-----MergeSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 448
+Len: 256    Time: 0.0000000000    Num of comparisons: 1024
+Len: 512    Time: 0.0000000000    Num of comparisons: 2304
+Len: 1024    Time: 0.0010640621    Num of comparisons: 5120
+Len: 2048    Time: 0.0040698051    Num of comparisons: 11264
+Len: 4096    Time: 0.0041630268    Num of comparisons: 24576
+Len: 8192    Time: 0.0327067375    Num of comparisons: 53248
+Len: 16384    Time: 0.1371867657    Num of comparisons: 114688
+Len: 32768    Time: 0.5071737766    Num of comparisons: 245760
+-----ShellSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 769
+Len: 256    Time: 0.0000000000    Num of comparisons: 1793
+Len: 512    Time: 0.0000000000    Num of comparisons: 4097
+Len: 1024    Time: 0.0000000000    Num of comparisons: 9217
+Len: 2048    Time: 0.0000000000    Num of comparisons: 20481
+Len: 4096    Time: 0.0102572441    Num of comparisons: 45057
+Len: 8192    Time: 0.0101978779    Num of comparisons: 98305
+Len: 16384    Time: 0.0300166607    Num of comparisons: 212993
+Len: 32768    Time: 0.0433671474    Num of comparisons: 458753
+    Experiment 3: the values of the input array are sorted in reverse order
+  -----SelectionSort-----
+Len: 128    Time: 0.0009262562    Num of comparisons: 8128
+Len: 256    Time: 0.0020649433    Num of comparisons: 32640
+Len: 512    Time: 0.0079984665    Num of comparisons: 130816
+Len: 1024    Time: 0.0313570499    Num of comparisons: 523776
+Len: 2048    Time: 0.1208288670    Num of comparisons: 2096128
+Len: 4096    Time: 0.4844436646    Num of comparisons: 8386560
+Len: 8192    Time: 2.0006957054    Num of comparisons: 33550336
+Len: 16384    Time: 7.7735660076    Num of comparisons: 134209536
+Len: 32768    Time: 31.4547538757    Num of comparisons: 536854528
+-----InsertionSort-----
+Len: 128    Time: 0.0009312630    Num of comparisons: 8128
+Len: 256    Time: 0.0030674934    Num of comparisons: 32640
+Len: 512    Time: 0.0032835007    Num of comparisons: 130816
+Len: 1024    Time: 0.0610234737    Num of comparisons: 523776
+Len: 2048    Time: 0.2047047615    Num of comparisons: 2096128
+Len: 4096    Time: 0.8349604607    Num of comparisons: 8386560
+Len: 8192    Time: 3.3580420017    Num of comparisons: 33550336
+Len: 16384    Time: 13.4231085777    Num of comparisons: 134209536
+Len: 32768    Time: 54.0183463097    Num of comparisons: 536854528
+-----MergeSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 448
+Len: 256    Time: 0.0000000000    Num of comparisons: 1024
+Len: 512    Time: 0.0000000000    Num of comparisons: 2304
+Len: 1024    Time: 0.0081605911    Num of comparisons: 5120
+Len: 2048    Time: 0.0020921230    Num of comparisons: 11264
+Len: 4096    Time: 0.0102045536    Num of comparisons: 24576
+Len: 8192    Time: 0.0408208370    Num of comparisons: 53248
+Len: 16384    Time: 0.1351306438    Num of comparisons: 114688
+Len: 32768    Time: 0.5086290836    Num of comparisons: 245760
+-----ShellSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 1090
+Len: 256    Time: 0.0000000000    Num of comparisons: 2562
+Len: 512    Time: 0.0000000000    Num of comparisons: 5890
+Len: 1024    Time: 0.0000000000    Num of comparisons: 13314
+Len: 2048    Time: 0.0081064701    Num of comparisons: 29698
+Len: 4096    Time: 0.0000000000    Num of comparisons: 65538
+Len: 8192    Time: 0.0123052597    Num of comparisons: 143362
+Len: 16384    Time: 0.0327286720    Num of comparisons: 311298
+Len: 32768    Time: 0.0746841431    Num of comparisons: 671746
+      Experiment 4: the array contains only elements from the set {1, 2, 3}
+  -----SelectionSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 8128.0
+Len: 256    Time: 0.0026702881    Num of comparisons: 32640.0
+Len: 512    Time: 0.0080773830    Num of comparisons: 130816.0
+Len: 1024    Time: 0.0304349264    Num of comparisons: 523776.0
+Len: 2048    Time: 0.1165183385    Num of comparisons: 2096128.0
+Len: 4096    Time: 0.4558219910    Num of comparisons: 8386560.0
+Len: 8192    Time: 1.8867301941    Num of comparisons: 33550336.0
+Len: 16384    Time: 7.3898798625    Num of comparisons: 134209536.0
+Len: 32768    Time: 29.3978914420    Num of comparisons: 536854528.0
+-----InsertionSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 1096.3333333333333
+Len: 256    Time: 0.0006959438    Num of comparisons: 3778.6666666666665
+Len: 512    Time: 0.0000000000    Num of comparisons: 15692.666666666666
+Len: 1024    Time: 0.0068050226    Num of comparisons: 60209.666666666664
+Len: 2048    Time: 0.0238671303    Num of comparisons: 233546.33333333334
+Len: 4096    Time: 0.0905658404    Num of comparisons: 916197.0
+Len: 8192    Time: 0.3698634307    Num of comparisons: 3753707.3333333335
+Len: 16384    Time: 1.4836030006    Num of comparisons: 14967261.0
+Len: 32768    Time: 5.9173990885    Num of comparisons: 59816996.333333336
+-----MergeSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 652.0
+Len: 256    Time: 0.0006015301    Num of comparisons: 1560.0
+Len: 512    Time: 0.0000000000    Num of comparisons: 3549.0
+Len: 1024    Time: 0.0027735233    Num of comparisons: 7879.0
+Len: 2048    Time: 0.0067992210    Num of comparisons: 17530.0
+Len: 4096    Time: 0.0187413692    Num of comparisons: 38406.0
+Len: 8192    Time: 0.0689422290    Num of comparisons: 83952.0
+Len: 16384    Time: 0.2453063329    Num of comparisons: 181107.0
+Len: 32768    Time: 0.9290525913    Num of comparisons: 390526.0
+-----ShellSort-----
+Len: 128    Time: 0.0000000000    Num of comparisons: 818.0
+Len: 256    Time: 0.0000000000    Num of comparisons: 1899.3333333333333
+Len: 512    Time: 0.0000000000    Num of comparisons: 4317.666666666667
+Len: 1024    Time: 0.0000000000    Num of comparisons: 9734.333333333334
+Len: 2048    Time: 0.0007104079    Num of comparisons: 21883.333333333332
+Len: 4096    Time: 0.0061047077    Num of comparisons: 47804.333333333336
+Len: 8192    Time: 0.0102060636    Num of comparisons: 106593.33333333333
+Len: 16384    Time: 0.0238291423    Num of comparisons: 229088.66666666666
+Len: 32768    Time: 0.0495546659    Num of comparisons: 494273.3333333333
