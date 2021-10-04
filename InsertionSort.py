@@ -1,4 +1,3 @@
-import random
 counter = 0
 
 def InsertionSort(arr):
